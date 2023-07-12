@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+  font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  
+
+}
+
+h1{
+	
+	text-align: center;
+	font-size: 20px;
+	padding:15px;
+	margin: 0px;
+	
+	
+}
+.navBar {
+  
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  border-top:1px solid black;
+  
+  
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width:15%;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+  background-color: black;
+  color: green;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.navBar a.split {
+  float: right;
+  background-color: white;
+  color: black;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+thead{
+	
+	text-decoration: underline;
+	text-align: center;
+}
+
+.RF{
+	
+	margin-left:30%;
+	margin-right:30%;
+	
+}
+
+.RF1{
+	
+	margin-left:26%;
+	margin-right:25%;
+	
+}
+button{
+	
+	font-size: 17px; 
+	text-align: center;
+  	padding: 14px 16px;
+  	background-color: transparent;
+  	border: none;	
+  	width: 11.75%;
+}
+button:hover{
+	
+	background-color: black;
+	color: green;
+	
+}
